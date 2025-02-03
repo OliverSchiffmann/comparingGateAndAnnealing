@@ -279,7 +279,7 @@ Repetitions = 1  # number of times the job is submitted, needed to get data abou
 GridSize = 8  # options are 8, 16, 32, 64
 EastWallWeight = 3  # weighting of the constraint
 NoOverlapWeight = 0.5  # weighting of the constraint
-OutputsFilepath = "/Users/kv18799/Library/CloudStorage/OneDrive-UniversityofBristol/Documents/PhD/Year 1/QC 4 Eng/DESIGN 24/Results/Repeated_jrnl_results/"
+OutputsFilepath = "\a\file\name"
 Landscape = False  # True if you want to find the energy of every possible solution, False if you dont.
 
 
