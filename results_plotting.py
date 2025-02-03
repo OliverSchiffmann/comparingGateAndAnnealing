@@ -162,8 +162,8 @@ def measure_uniformity(data):
 
 
 # %%Here i am jsut selecting the excel sheet we want to look at. Note that it must be stored in the DESIGN 24/results file path
-Filename = "BQM_fake_results_shots1000_east_wall_weight3_penalty0.5.xlsx"
-FilePath = "/Users/kv18799/Library/CloudStorage/OneDrive-UniversityofBristol/Documents/PhD/Year 1/QC 4 Eng/DESIGN 24/Results/Final_4_dcc_old/"
+Filename = "BQM_fake_results_shots1000_east_wall_weight3_penalty0.5.xlsx" #an example of the output format from the annealing iterator
+FilePath = "/your/file/path"
 
 # %%Here i am running all the functions to plot the histogram, as well as printing the results along the way to help spot bugs.
 Results = convert(
