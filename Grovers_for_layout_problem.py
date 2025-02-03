@@ -229,7 +229,7 @@ test_mode = 0  # 1 if you want to run the 2 qubit test example
 num_oracles = 9  # sqrt(N/M) is ideal
 num_shots = 40  # number of times the circuit is repeated
 device = "fake"  # real if you want to use the least busy quantum device with enough qubits, fake if you want to use the quantum statevector simulator
-my_token = "e70a73fa2dffb5938fdd34ddb4924257df98e260c8804e7e5b502950169e2d6d4ebca68b55a453a2ccf70c6760abd3ddb3cfa7469b59185a532f9d23dc4a9ae5"
+my_token = "IBM token"
 filename = (
     "Grovers_"
     + device
@@ -239,7 +239,7 @@ filename = (
     + str(num_oracles)
     + ".xlsx"
 )  # choosing the file name
-outputs_filepath = "/Users/kv18799/Library/CloudStorage/OneDrive-UniversityofBristol/Documents/PhD/Year 1/QC 4 Eng/DESIGN 24/Results/"  # saving it in the design 24 file path
+outputs_filepath = "/output/file/path/name"  # saving it in the design 24 file path
 
 
 if (
@@ -288,8 +288,8 @@ print("The total time for results in seconds is:", timeit.default_timer() - star
 
 # %%
 process_results = "yes"  # result processing is seperate as when you submit to a real device it will be placed in a queue for a long time
-job_id = "cpejzf5yx18g008bjzyg"  # to find this you can copy it from the ibm job manager. But you will also need to download the results and store them in the file path specified by outputs_filepath
-jobs_filepath = "/Users/kv18799/Library/CloudStorage/OneDrive-UniversityofBristol/Documents/PhD/Year 1/QC 4 Eng/DESIGN 24/Results/IBM_job_downloads/"
+job_id = "jobID"  # to find this you can copy it from the ibm job manager. But you will also need to download the results and store them in the file path specified by outputs_filepath
+jobs_filepath = "/filepath/for/downloaded/job/results"
 
 
 def reverse_dictionary_keys(original_dict):
