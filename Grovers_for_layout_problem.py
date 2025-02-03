@@ -301,7 +301,7 @@ if process_results == "yes":
 
     file_path = (
         jobs_filepath + "job-" + str(job_id) + "/" + str(job_id) + "-result.txt"
-    )  # Replace 'your_file.txt' with the path to your file
+    )  
     backwards_result_as_binary = extract_quasi_dists(file_path)
     result_as_binary = reverse_dictionary_keys(backwards_result_as_binary)
     result_binary_frequency = quasi_prob_to_frequency(result_as_binary, num_shots)
